@@ -85,6 +85,17 @@ const Layout: React.FC = ({ children }) => {
             <a>elliott.dev</a>
           </Link>
         </span>
+        {/* TODO: CSS these links */}
+        <span>
+          <Link href="/">
+            <a>Posts</a>
+          </Link>
+        </span>
+        <span>
+          <Link href="/activity">
+            <a>Activity</a>
+          </Link>
+        </span>
         {false && (
           <NightToggle
             disabledLabel="Off"
